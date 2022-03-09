@@ -1,0 +1,15 @@
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/bin/Debug/netstandard2.0/TestAPI.deps.json
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/bin/Debug/netstandard2.0/TestAPI.dll
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/bin/Debug/netstandard2.0/ref/TestAPI.dll
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/bin/Debug/netstandard2.0/TestAPI.pdb
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/TestAPI.csproj.AssemblyReference.cache
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/TestAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/TestAPI.AssemblyInfoInputs.cache
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/TestAPI.AssemblyInfo.cs
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/TestAPI.csproj.CoreCompileInputs.cache
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/TestAPI.dll
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/ref/TestAPI.dll
+/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/Debug/netstandard2.0/TestAPI.pdb

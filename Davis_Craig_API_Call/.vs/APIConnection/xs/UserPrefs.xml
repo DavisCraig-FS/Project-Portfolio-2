@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{995DCFE1-7747-430D-B0B7-BE42B4DB1AD4}|Default">
+  <MonoDevelop.Ide.ItemProperties.APIConnection.Android PreferredExecutionTarget="Android.pixel_3_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.ItemProperties.APIConnection.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8823BAD4-AD8F-42A1-8247-AA48F277B4EC" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="APIConnection/MainPage.xaml">
+    <Files>
+      <File FileName="APIConnection/MainPage.xaml" Line="16" Column="1" />
+      <File FileName="APIConnection/MainPage.xaml.cs" Line="27" Column="41" />
+      <File FileName="APIConnection/Models/DataManager.cs" Line="29" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="APIConnection" expanded="True">
+            <Node name="APIConnection" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
