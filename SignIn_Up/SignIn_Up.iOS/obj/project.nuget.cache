@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RXCzXBoQ3fPSinmeNqI5AJEbOM9j1chmjGpX0pQaAidw7bWQIR74sCVvBiEEMkx37j0IzFgutgbpgMXfoozxMg==",
+  "success": true,
+  "projectFilePath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/SignIn_Up.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/craigdavis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/craigdavis/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/craigdavis/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

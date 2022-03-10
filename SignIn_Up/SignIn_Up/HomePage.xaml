@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SignIn_Up.HomePage">
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="HOME PAGE" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Your Signed In As:" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" FontSize="Title" TextColor="CornflowerBlue" />
+        <Label x:Name="userLabel" Text="" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" FontSize="Title" TextColor="CornflowerBlue"/>
+        <Button x:Name="signOutButton" Text="SIGNOUT" BackgroundColor="Red" HorizontalOptions="Fill" TextColor="White" VerticalOptions="EndAndExpand" />
+    </StackLayout>
+</ContentPage>

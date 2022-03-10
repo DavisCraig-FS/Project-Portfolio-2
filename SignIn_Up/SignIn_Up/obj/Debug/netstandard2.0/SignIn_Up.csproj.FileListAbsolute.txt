@@ -1,0 +1,17 @@
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/bin/Debug/netstandard2.0/SignIn_Up.deps.json
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/bin/Debug/netstandard2.0/SignIn_Up.dll
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/bin/Debug/netstandard2.0/ref/SignIn_Up.dll
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/bin/Debug/netstandard2.0/SignIn_Up.pdb
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/SignIn_Up.csproj.AssemblyReference.cache
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/SignIn_Up.GeneratedMSBuildEditorConfig.editorconfig
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/SignIn_Up.AssemblyInfoInputs.cache
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/SignIn_Up.AssemblyInfo.cs
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/SignIn_Up.csproj.CoreCompileInputs.cache
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/SignIn_Up.dll
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/ref/SignIn_Up.dll
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/SignIn_Up.pdb
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up/obj/Debug/netstandard2.0/SignInPage.xaml.g.cs
