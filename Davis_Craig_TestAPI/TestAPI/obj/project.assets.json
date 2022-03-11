@@ -567,11 +567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/TestAPI.csproj",
+      "projectUniqueName": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/TestAPI.csproj",
       "projectName": "TestAPI",
-      "projectPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/TestAPI.csproj",
+      "projectPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/TestAPI.csproj",
       "packagesPath": "/Users/craigdavis/.nuget/packages/",
-      "outputPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/obj/",
+      "outputPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/craigdavis/.config/NuGet/NuGet.Config"

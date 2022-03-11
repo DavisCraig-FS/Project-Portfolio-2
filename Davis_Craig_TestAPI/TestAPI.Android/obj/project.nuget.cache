@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PhUQlSN1EIfUAV5B620I0rz1YjEWVKSKbM5v+7DhsEHjMGR4dt6wwCNKY1KYx+DE+ceyZde+vleOOqYt4asy/Q==",
+  "dgSpecHash": "4r0VlcBFUxHK1ulcyAHeh7uwx2Q+JVJYRc4mqc3qr6g/NmjLDyu+TbCACItJ1Zj8SbJJkrF5CGprdOnVuwSLBA==",
   "success": true,
-  "projectFilePath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.Android/TestAPI.Android.csproj",
+  "projectFilePath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.Android/TestAPI.Android.csproj",
   "expectedPackageFiles": [
     "/Users/craigdavis/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/craigdavis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",

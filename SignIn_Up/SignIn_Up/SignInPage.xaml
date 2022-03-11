@@ -15,8 +15,8 @@
         <Label  Text="Don't have an account?" HorizontalOptions="Center" VerticalOptions="Center" VerticalTextAlignment="Center" />
         <Button x:Name="signupButton" Text="SIGN UP" BackgroundColor="Black" TextColor="White" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" />
         <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal">
-            <Button x:Name="forgotUsernameButton" Text="FORGOT USERNAME" BackgroundColor="OrangeRed" TextColor="White" VerticalOptions="Center" HorizontalOptions="StartAndExpand" />
-            <Button x:Name="forgotPassButton" Text="FORGOT PASSWORD" BackgroundColor="OrangeRed" TextColor="White" VerticalOptions="Center" HorizontalOptions="EndAndExpand" />
+            <Button x:Name="forgotUsernameButton" Text="FORGOT USERNAME" BackgroundColor="OrangeRed" TextColor="White" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+            <Button x:Name="forgotPassButton" Text="FORGOT PASSWORD" BackgroundColor="OrangeRed" TextColor="White" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
         </StackLayout>
     </StackLayout>
 </ContentPage>

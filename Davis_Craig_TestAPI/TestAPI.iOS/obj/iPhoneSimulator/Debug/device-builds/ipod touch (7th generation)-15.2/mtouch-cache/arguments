@@ -4,17 +4,17 @@
 	--sgen-conc \
 	'/target-framework:Xamarin.iOS,Version=v1.0' \
 	--http-message-handler=NSUrlSessionHandler \
-	'\"--cache=/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/mtouch-cache\"' \
-	--root-assembly=/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.iOS/bin/iPhoneSimulator/Debug/TestAPI.iOS.exe \
+	'\"--cache=/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/mtouch-cache\"' \
+	--root-assembly=/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/bin/iPhoneSimulator/Debug/TestAPI.iOS.exe \
 	--sdkroot=/Applications/Xcode.app/Contents/Developer \
 	--targetver=8.0 \
-	'\"--sim=/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.iOS/bin/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/TestAPI.iOS.app\"' \
+	'\"--sim=/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/bin/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/TestAPI.iOS.app\"' \
 	--executable=TestAPI.iOS \
 	--nolink \
 	--sdk=15.2 \
 	--aot-options=-O=-float32 \
 	--abi=x86_64 \
-	'\"--symbollist=/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/mtouch-symbols.list\"' \
+	'\"--symbollist=/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/mtouch-symbols.list\"' \
 	--dsym=no \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll \
@@ -24,7 +24,7 @@
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
-	--reference=/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/bin/Debug/netstandard2.0/TestAPI.dll \
+	--reference=/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/bin/Debug/netstandard2.0/TestAPI.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll \
@@ -208,5 +208,5 @@
 	--reference=/Users/craigdavis/.nuget/packages/xamarin.forms/5.0.0.2337/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
 	--reference=/Users/craigdavis/.nuget/packages/xamarin.forms/5.0.0.2337/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
 	--reference=/Users/craigdavis/.nuget/packages/xamarin.forms/5.0.0.2337/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
-	--reference=/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/bin/Debug/netstandard2.0/TestAPI.dll \
-	'@/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/response-file.rsp' \
+	--reference=/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/bin/Debug/netstandard2.0/TestAPI.dll \
+	'@/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/response-file.rsp' \

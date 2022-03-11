@@ -45,19 +45,19 @@
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/bin/iPhoneSimulator/Debug/SignIn_Up.dll
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/bin/iPhoneSimulator/Debug/SignIn_Up.pdb
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/actool/_ProcessedImageAssetsPath.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/ibtool/_ProcessedInterfaceDefinitionsPath.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/coremlc/_ProcessedCoreMLModelsPath.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/_ProcessedBundleResourcesPath.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/_ProcessedContentPath.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/optimized/
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/SignIn_Up.iOS.csproj.AssemblyReference.cache
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/SignIn_Up.iOS.csproj.CoreCompileInputs.cache
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/SignIn_Up.iOS.csproj.CopyComplete
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/SignIn_Up.iOS.exe
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/SignIn_Up.iOS.pdb
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/actool/_PartialAppManifest.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/actool/_BundleResourceWithLogicalName.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/actool/_ProcessedImageAssetsPath.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/coremlc/_PartialAppManifest.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/_ProcessedBundleResourcesPath.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/_ProcessedContentPath.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/SignIn_Up/SignIn_Up.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/optimized/

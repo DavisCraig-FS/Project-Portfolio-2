@@ -3215,11 +3215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.Android/TestAPI.Android.csproj",
+      "projectUniqueName": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.Android/TestAPI.Android.csproj",
       "projectName": "TestAPI.Android",
-      "projectPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.Android/TestAPI.Android.csproj",
+      "projectPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.Android/TestAPI.Android.csproj",
       "packagesPath": "/Users/craigdavis/.nuget/packages/",
-      "outputPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.Android/obj/",
+      "outputPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -3234,8 +3234,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/TestAPI.csproj": {
-              "projectPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/TestAPI.csproj"
+            "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/TestAPI.csproj": {
+              "projectPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/TestAPI.csproj"
             }
           }
         }

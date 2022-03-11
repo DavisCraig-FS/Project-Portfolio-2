@@ -1055,11 +1055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.iOS/TestAPI.iOS.csproj",
+      "projectUniqueName": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/TestAPI.iOS.csproj",
       "projectName": "TestAPI.iOS",
-      "projectPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.iOS/TestAPI.iOS.csproj",
+      "projectPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/TestAPI.iOS.csproj",
       "packagesPath": "/Users/craigdavis/.nuget/packages/",
-      "outputPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.iOS/obj/",
+      "outputPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1074,8 +1074,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/TestAPI.csproj": {
-              "projectPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/TestAPI.csproj"
+            "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/TestAPI.csproj": {
+              "projectPath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/TestAPI.csproj"
             }
           }
         }

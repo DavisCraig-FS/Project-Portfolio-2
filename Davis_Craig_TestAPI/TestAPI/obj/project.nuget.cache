@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uwa8ZcgFfMxKaAPM58OVign+MShbyGFZJwpLgZIKQtup0pgIw42jBhVEbqdSpwOqxTjYWFgrSm1QAtU0eyu4ZQ==",
+  "dgSpecHash": "qi9rJ8S/71uIzTWCxnBG7An/mWPl4V/Z6WbjF1UVt6DDIcVdbE5tNeAKEEUKz+mjBv7u+E+nHYS+MR5KsUNSWA==",
   "success": true,
-  "projectFilePath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI/TestAPI.csproj",
+  "projectFilePath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/TestAPI.csproj",
   "expectedPackageFiles": [
     "/Users/craigdavis/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/craigdavis/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

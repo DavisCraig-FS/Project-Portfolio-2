@@ -15,15 +15,28 @@ namespace SignIn_Up
             NavigationPage.SetHasNavigationBar(this, false);
             users = new Dictionary<string, User>();
             ReadFromFile();
-            MessagingCenter.Subscribe<Dictionary<string, User>>(this, "Users", (sender) =>
-            {
-                //users = sender;
-
-            });
             signInButton.Clicked += SignInButton_Clicked;
+            signupButton.Clicked += SignupButton_Clicked;
+            forgotUsernameButton.Clicked += ForgotUsernameButton_Clicked;
+            forgotPassButton.Clicked += ForgotPassButton_Clicked;
             
         }
-        
+
+        async void ForgotPassButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ForgotPasswordPage());
+        }
+
+        async void ForgotUsernameButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ForgotUsernamePage());
+        }
+
+        async void SignupButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
+
         async void SignInButton_Clicked(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(usernameEntry.Text) || string.IsNullOrWhiteSpace(passwordEntry.Text))
@@ -79,7 +92,6 @@ namespace SignIn_Up
                     }
                 }
             }
-            //MessagingCenter.Send(users, "Users");
         }
     }
 }

@@ -35,8 +35,9 @@ namespace SignIn_Up
                 if(kvp.Value.Email == emailEntry.Text)
                 {
                     await DisplayAlert("Email Taken!", "Please try a different email address.", "OKAY");
-                    ClearFields();
+                    
                 }
+                ClearFields();
             }
             if(string.IsNullOrWhiteSpace(firstEntry.Text) || string.IsNullOrWhiteSpace(lastEntry.Text) || string.IsNullOrWhiteSpace(usernameEntry.Text) ||
                 string.IsNullOrWhiteSpace(emailEntry.Text) || string.IsNullOrWhiteSpace(passwordEntry.Text) || string.IsNullOrWhiteSpace(retypePassEntry.Text))
@@ -108,7 +109,7 @@ namespace SignIn_Up
                 }
             }
         }
-        
+        // Method for clearing the field values
         private void ClearFields()
         {
             firstEntry.Text = null;
@@ -118,9 +119,5 @@ namespace SignIn_Up
             passwordEntry.Text = null;
             retypePassEntry.Text = null;
         }
-
-
-
-
     }
 }

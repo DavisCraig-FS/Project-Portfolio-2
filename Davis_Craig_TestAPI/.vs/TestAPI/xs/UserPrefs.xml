@@ -3,7 +3,7 @@
     <Files>
       <File FileName="TestAPI/MainPage.xaml.cs" Line="41" Column="13" />
       <File FileName="TestAPI/Models/DataManager.cs" />
-      <File FileName="TestAPI/MainPage.xaml" Line="10" Column="66" />
+      <File FileName="TestAPI/MainPage.xaml" Line="6" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,14 +13,13 @@
               <Node name="Models" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" selected="True" />
             </Node>
-            <Node name="TestAPI.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TestAPI.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.ItemProperties.TestAPI.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8823BAD4-AD8F-42A1-8247-AA48F277B4EC" />
+  <MonoDevelop.Ide.ItemProperties.TestAPI.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D6F8D810-6CA9-4891-88A4-5FE6462C8967" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

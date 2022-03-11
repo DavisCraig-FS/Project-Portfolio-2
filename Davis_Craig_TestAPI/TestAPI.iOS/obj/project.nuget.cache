@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dBzJ2UFT7a8xByCxNfjOo6K/KcSFyEgk4/o5FpQb3Cd5PAI09uUbhMb6Y2mWR7F8v7RxXuI4ecwnKg7+9ICpmA==",
+  "dgSpecHash": "G6XB6a7PXifwaLE1p5vhhpm2Qt4iY2iW2Sxeb2St4gA8ef/EaIoPm9o8dsZgUcehDgtpiRT6fySYGH6LKC20vA==",
   "success": true,
-  "projectFilePath": "/Users/craigdavis/Desktop/16.2-Portfolio2/TestAPI/TestAPI.iOS/TestAPI.iOS.csproj",
+  "projectFilePath": "/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/TestAPI.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/craigdavis/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/craigdavis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
