@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{85C98103-CD70-4EC8-91C0-700F1B834FA6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestAPI/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestAPI/Models/DataManager.cs">
     <Files>
       <File FileName="TestAPI/MainPage.xaml.cs" Line="41" Column="13" />
-      <File FileName="TestAPI/Models/DataManager.cs" />
+      <File FileName="TestAPI/Models/DataManager.cs" Line="18" Column="26" />
       <File FileName="TestAPI/MainPage.xaml" Line="6" Column="18" />
     </Files>
     <Pads>
@@ -10,8 +10,10 @@
         <State name="__root__">
           <Node name="TestAPI" expanded="True">
             <Node name="TestAPI" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="DataManager.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +21,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TestAPI.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.ItemProperties.TestAPI.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D6F8D810-6CA9-4891-88A4-5FE6462C8967" />
+  <MonoDevelop.Ide.ItemProperties.TestAPI.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.873F9078-0734-4670-8A30-641DA14A6AFF" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

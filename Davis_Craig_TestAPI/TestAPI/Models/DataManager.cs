@@ -16,7 +16,7 @@ namespace APITest.Models
         WebClient apiConnection = new WebClient();
         string artist { get; set; }
         string apiKey = "&api_key=aa18478028ace5e6ecdba60afafb2dbf&format=json";
-        string startAPI = $"http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=";
+        string startAPI = "http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=";
         
 
         string apiEndPoint
