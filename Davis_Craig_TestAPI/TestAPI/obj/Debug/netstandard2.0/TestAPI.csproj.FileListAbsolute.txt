@@ -28,3 +28,4 @@
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/obj/Debug/netstandard2.0/TestAPI.dll
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/obj/Debug/netstandard2.0/ref/TestAPI.dll
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/obj/Debug/netstandard2.0/TestAPI.pdb
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI/obj/Debug/netstandard2.0/DisplayAlbumPage.xaml.g.cs

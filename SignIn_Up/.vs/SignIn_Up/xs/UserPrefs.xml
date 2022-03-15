@@ -1,10 +1,8 @@
-﻿<Properties StartupConfiguration="{6B0E01A8-26D1-41B6-BA9B-2E89324E1F80}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SignIn_Up/MainPage.xaml.cs">
+﻿<Properties StartupConfiguration="{4C4BAA14-0BF1-402F-8730-C1D2F5FD00B2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SignIn_Up/MainPage.xaml">
     <Files>
-      <File FileName="SignIn_Up/MainPage.xaml.cs" Line="40" Column="17" />
-      <File FileName="SignIn_Up/SignInPage.xaml.cs" Line="42" Column="13" />
-      <File FileName="SignIn_Up/ForgotPasswordPage.xaml" Line="19" Column="172" />
-      <File FileName="SignIn_Up/ForgotPasswordPage.xaml.cs" Line="38" Column="54" />
+      <File FileName="SignIn_Up/MainPage.xaml.cs" Line="135" Column="84" />
+      <File FileName="SignIn_Up/MainPage.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +10,8 @@
           <Node name="SignIn_Up" expanded="True">
             <Node name="SignIn_Up" expanded="True">
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="SignInPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -22,7 +19,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.SignIn__Up.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D6F8D810-6CA9-4891-88A4-5FE6462C8967" />
-  <MonoDevelop.Ide.ItemProperties.SignIn__Up.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.SignIn__Up.Android PreferredExecutionTarget="Android.pixel_3a_xl_r_11_0_-_api_30" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

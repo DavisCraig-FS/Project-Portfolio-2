@@ -17,8 +17,6 @@ namespace APITest.Models
         string artist { get; set; }
         string apiKey = "&api_key=aa18478028ace5e6ecdba60afafb2dbf&format=json";
         string startAPI = "http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=";
-        
-
         string apiEndPoint
         {
             get
@@ -32,8 +30,6 @@ namespace APITest.Models
         {
             artist = artistToSearch;
         }
-
-
         public async Task<List<Album>> GetAlbums()
         {
             string apiString = await apiConnection.DownloadStringTaskAsync(apiEndPoint);
@@ -43,17 +39,17 @@ namespace APITest.Models
 
             foreach(var a in albumArray)
             {
+                
                 albumList.Add(new Album
                 {
+                    Artist = a["artist"]["name"].ToString(),
                     Title = a["name"].ToString(),
-                    
+                    Image = a["image"][3]["#text"].ToString()
+
                 });
             }
-
-                    
-                    
-
             return albumList;
         }
+        
     }
 }

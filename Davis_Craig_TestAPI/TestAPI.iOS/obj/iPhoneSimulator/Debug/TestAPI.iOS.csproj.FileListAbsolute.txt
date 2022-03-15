@@ -115,14 +115,14 @@
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/TestAPI.iOS.csproj.CopyComplete
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/TestAPI.iOS.exe
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/TestAPI.iOS.pdb
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/actool/_PartialAppManifest.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/actool/_BundleResourceWithLogicalName.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/actool/_ProcessedImageAssetsPath.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/ibtool/_BundleResourceWithLogicalName.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/coremlc/_PartialAppManifest.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/coremlc/_BundleResourceWithLogicalName.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/coremlc/_ProcessedCoreMLModelsPath.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/_ProcessedBundleResourcesPath.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/_ProcessedContentPath.items
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.2/optimized/
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/actool/_PartialAppManifest.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/actool/_BundleResourceWithLogicalName.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/actool/_ProcessedImageAssetsPath.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/coremlc/_PartialAppManifest.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/_ProcessedBundleResourcesPath.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/_ProcessedContentPath.items
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Davis_Craig_TestAPI/TestAPI.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.2/optimized/
