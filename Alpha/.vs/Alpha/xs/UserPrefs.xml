@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{29DFFFD5-90F7-407F-8E14-DB8A8F2716BF}|Default">
+  <MonoDevelop.Ide.ItemProperties.Alpha.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Alpha/SearchPage.xaml.cs">
+    <Files>
+      <File FileName="Alpha/MainPage.xaml.cs" Line="21" Column="13" />
+      <File FileName="Alpha/SignInPage.xaml.cs" Line="32" Column="62" />
+      <File FileName="Alpha/ForgotPasswordPage.xaml.cs" Line="25" Column="56" />
+      <File FileName="Alpha/SearchPage.xaml.cs" Line="22" Column="61" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Alpha" expanded="True">
+            <Node name="Alpha" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="SearchPage.xaml" expanded="True">
+                <Node name="SearchPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../Davis_Craig_TestAPI/TestAPI.iOS/Main.cs" line="16" column="12" endLine="16" endColumn="25" offsetX="-1" offsetY="-1" expression="UIApplication" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.Alpha.Android PreferredExecutionTarget="Android.pixel_3a_xl_r_11_0_-_api_30" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

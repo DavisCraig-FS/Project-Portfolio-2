@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Alpha.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="SIGN UP" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry x:Name="firstEntry" Placeholder="First Name" Keyboard="Default" />
+        <Entry x:Name="lastEntry" Placeholder="Last Name" Keyboard="Default"/>
+        <Entry x:Name="usernameEntry" Placeholder="Username" Keyboard="Default"/>
+        <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" />
+        <Entry x:Name="passwordEntry" Placeholder="Password" Keyboard="Default" IsPassword="True"/>
+        <Entry x:Name="retypePassEntry" Placeholder="Retype Password" Keyboard="Default" IsPassword="True"/>
+        <Button x:Name="signUpButton" Text="SIGN UP" FontSize="Large" HorizontalOptions="CenterAndExpand" BackgroundColor="Green" TextColor="White" />
+        <Label Text="Already signed Up?" FontSize="Medium" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+        <Button x:Name="signInButton" Text="SIGN IN" FontSize="Large" HorizontalOptions="CenterAndExpand" BackgroundColor="Black" TextColor="White" />
+    </StackLayout>
+
+</ContentPage>

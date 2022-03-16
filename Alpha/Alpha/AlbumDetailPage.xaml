@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Alpha.AlbumDetailPage">
+    <StackLayout>
+        <Label x:Name="aristLabel" Text="" FontSize="Title" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" BackgroundColor="DeepSkyBlue" />
+        <Image x:Name="albumImage" Source="" HeightRequest="300" />
+        <Label x:Name="albumLabel" Text="" FontSize="Title" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" BackgroundColor="DeepSkyBlue" />
+        <Button x:Name="addButton" Text="ADD TO FAVORITES" BackgroundColor="DeepSkyBlue" FontSize="Medium" TextColor="Black" VerticalOptions="EndAndExpand" HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>
