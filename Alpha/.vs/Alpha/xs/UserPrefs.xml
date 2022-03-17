@@ -1,22 +1,35 @@
-﻿<Properties StartupConfiguration="{29DFFFD5-90F7-407F-8E14-DB8A8F2716BF}|Default">
-  <MonoDevelop.Ide.ItemProperties.Alpha.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Alpha/SearchPage.xaml.cs">
+﻿<Properties StartupConfiguration="{F7CDDF23-8E83-4B21-A661-FD401C3ECAD1}|Default">
+  <MonoDevelop.Ide.ItemProperties.Alpha.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D6F8D810-6CA9-4891-88A4-5FE6462C8967" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Alpha/FavoritesPage.xaml.cs">
     <Files>
-      <File FileName="Alpha/MainPage.xaml.cs" Line="21" Column="13" />
-      <File FileName="Alpha/SignInPage.xaml.cs" Line="32" Column="62" />
-      <File FileName="Alpha/ForgotPasswordPage.xaml.cs" Line="25" Column="56" />
-      <File FileName="Alpha/SearchPage.xaml.cs" Line="22" Column="61" />
+      <File FileName="Alpha/MainPage.xaml.cs" Line="12" Column="48" />
+      <File FileName="Alpha/FavoritesPage.xaml.cs" Line="19" Column="13" />
+      <File FileName="Alpha/SearchPage.xaml.cs" Line="21" Column="13" />
+      <File FileName="Alpha/AlbumDetailPage.xaml.cs" Line="17" Column="13" />
+      <File FileName="Alpha/HomePage.xaml.cs" Line="18" Column="13" />
+      <File FileName="Alpha/App.xaml.cs" Line="26" Column="37" />
+      <File FileName="Alpha/SignInPage.xaml.cs" Line="82" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Alpha" expanded="True">
             <Node name="Alpha" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="SearchPage.xaml" expanded="True">
-                <Node name="SearchPage.xaml.cs" selected="True" />
+              <Node name="AlbumDetailPage.xaml" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="FavoritesPage.xaml" expanded="True">
+                <Node name="FavoritesPage.xaml.cs" selected="True" />
               </Node>
+              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="SearchPage.xaml" expanded="True" />
+              <Node name="SignInPage.xaml" expanded="True" />
+            </Node>
+            <Node name="Alpha.Android" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+            <Node name="Alpha.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>

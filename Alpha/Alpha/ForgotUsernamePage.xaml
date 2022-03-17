@@ -4,17 +4,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Alpha.ForgotUsernamePage">
     <StackLayout>
-        <Frame BackgroundColor="MidnightBlue" Padding="24" CornerRadius="0">
-            <Label Text="SIGN IN" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Frame BackgroundColor="DarkSlateBlue" Padding="24">
+        <Frame BackgroundColor="MidnightBlue" Padding="24">
             <Label Text="USERNAME HINT" TextColor="White" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" TextTransform="Uppercase" FontSize="Large" />
         </Frame>
         <StackLayout>
             <ListView x:Name="listView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="" Detail="" />
+                        <TextCell Text="" Detail="" Height="50" />
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

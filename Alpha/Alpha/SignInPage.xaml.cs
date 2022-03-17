@@ -76,8 +76,11 @@ namespace Alpha
             // if the username and password are correct
             else
             {
+                // set signed in property to true
+                Application.Current.Properties["SignedIn"] = bool.TrueString;
+                
                 // navigate to the homepage
-                await Navigation.PushAsync(new SearchPage());
+                await Navigation.PushAsync(new HomePage());
                 // send the username to via messaging center
                 MessagingCenter.Send(usernameEntry.Text, "DisplayUser");
             }
@@ -91,10 +94,10 @@ namespace Alpha
         // Method to read from the text file and load data 
         public void ReadFromFile()
         {
-            if (File.Exists(App.FilePath))
+            if (File.Exists(App.UserFilePath))
             {
                 // Opening a streamreader to read all file contents
-                using (StreamReader sr = new StreamReader(App.FilePath))
+                using (StreamReader sr = new StreamReader(App.UserFilePath))
                 {
                     // variable to hold read line (stock symbol)
                     string line;

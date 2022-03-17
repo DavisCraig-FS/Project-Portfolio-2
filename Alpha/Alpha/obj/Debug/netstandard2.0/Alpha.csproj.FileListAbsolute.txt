@@ -18,3 +18,5 @@
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha/obj/Debug/netstandard2.0/Alpha.dll
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha/obj/Debug/netstandard2.0/ref/Alpha.dll
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha/obj/Debug/netstandard2.0/Alpha.pdb
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha/obj/Debug/netstandard2.0/FavoritesPage.xaml.g.cs
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha/obj/Debug/netstandard2.0/HomePage.xaml.g.cs

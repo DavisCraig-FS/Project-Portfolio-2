@@ -53,10 +53,10 @@ namespace Alpha
         }
         public void ReadFromFile()
         {
-            if (File.Exists(App.FilePath))
+            if (File.Exists(App.UserFilePath))
             {
                 // Opening a streamreader to read all file contents
-                using (StreamReader sr = new StreamReader(App.FilePath))
+                using (StreamReader sr = new StreamReader(App.UserFilePath))
                 {
                     // variable to hold read line (stock symbol)
                     string line;

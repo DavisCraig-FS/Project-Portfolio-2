@@ -136,4 +136,9 @@
       <Name>Alpha</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\searchwhite.png" />
+    <BundleResource Include="Resources\signoutwhite.png" />
+    <BundleResource Include="Resources\starwhite.png" />
+  </ItemGroup>
 </Project>

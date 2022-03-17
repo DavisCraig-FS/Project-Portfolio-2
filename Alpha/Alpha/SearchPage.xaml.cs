@@ -13,14 +13,13 @@ namespace Alpha
     public partial class SearchPage : ContentPage
     {
         List<Album> albumList = new List<Album>();
-        List<string> imageList = new List<string>();
 
         public SearchPage()
         {
             InitializeComponent();
             // Remove the back button on the nav bar
             NavigationPage.SetHasNavigationBar(this, false);
-            searchButton.Clicked += SearchButton_Clicked; 
+            searchButton.Clicked += SearchButton_Clicked;
             listView.ItemsSource = albumList;
             listView.ItemSelected += ListView_ItemSelected;
 
@@ -54,4 +53,5 @@ namespace Alpha
 
         }
     }
+        
 }

@@ -79,10 +79,10 @@ namespace Alpha
                 // display the alert
                 await DisplayAlert("Success!", "You have created an account.", "OKAY");
                 // if the file does not exist
-                if (!File.Exists(App.FilePath))
+                if (!File.Exists(App.UserFilePath))
                 {
                     // create the file 
-                    using (StreamWriter sw = File.CreateText(App.FilePath))
+                    using (StreamWriter sw = File.CreateText(App.UserFilePath))
                     {
                         // write the user info to the file
                         sw.WriteLine($"{firstEntry.Text}|{lastEntry.Text}|{usernameEntry.Text}|{emailEntry.Text}|{passwordEntry.Text}");
@@ -92,7 +92,7 @@ namespace Alpha
                 else
                 {
                     // append the file
-                    using (StreamWriter sw = File.AppendText(App.FilePath))
+                    using (StreamWriter sw = File.AppendText(App.UserFilePath))
                     {
                         // write the user info to the file
                         sw.WriteLine($"{firstEntry.Text}|{lastEntry.Text}|{usernameEntry.Text}|{emailEntry.Text}|{passwordEntry.Text}");
@@ -105,10 +105,10 @@ namespace Alpha
 
         public void ReadFromFile()
         {
-            if (File.Exists(App.FilePath))
+            if (File.Exists(App.UserFilePath))
             {
                 // Opening a streamreader to read all file contents
-                using (StreamReader sr = new StreamReader(App.FilePath))
+                using (StreamReader sr = new StreamReader(App.UserFilePath))
                 {
                     // variable to hold read line (stock symbol)
                     string line;
