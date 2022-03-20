@@ -29,24 +29,32 @@ namespace Alpha
             dt.SetBinding(ImageCell.DetailProperty, new Binding("Artist"));
             listView.ItemTemplate = dt;
         }
-
+        // event method for list item selected
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            // if the item selected is not null
             if (e.SelectedItem != null)
             {
+                // navigate to album detail page 
                 Navigation.PushAsync(new AlbumDetailPage
                 {
+                    // and bind the selected item's context
                     BindingContext = e.SelectedItem as Album
                 });
+                // send the selected album via messaging center
+                MessagingCenter.Send<Album>((Album)e.SelectedItem, "AlbumDetail");
             }
         }
-
+        // event method for search button
         private void SearchButton_Clicked(object sender, EventArgs e)
         {
+            // call method for API call
             ArtistAlbumSearch();
         }
+        // method for API call 
         async void ArtistAlbumSearch()
         {
+            // instantiate datamanager and assign values to albumList
             DataManager dm = new DataManager(entryLabel.Text.ToLower());
             albumList = await dm.GetAlbums();
             listView.ItemsSource = albumList.ToList();

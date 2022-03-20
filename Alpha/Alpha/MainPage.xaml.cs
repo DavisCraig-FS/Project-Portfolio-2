@@ -110,7 +110,7 @@ namespace Alpha
                 // Opening a streamreader to read all file contents
                 using (StreamReader sr = new StreamReader(App.UserFilePath))
                 {
-                    // variable to hold read line (stock symbol)
+                    // variable to hold read line 
                     string line;
                     // looping for every readline that exists
                     while ((line = sr.ReadLine()) != null)

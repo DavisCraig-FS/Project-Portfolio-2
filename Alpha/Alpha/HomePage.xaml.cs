@@ -1,60 +1,75 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Alpha.Models;
+using Newtonsoft.Json;
 using Xamarin.Forms;
 
 namespace Alpha
 {
-    public partial class HomePage : TabbedPage
+    public partial class HomePage : INotifyPropertyChanged
     {
         private ToolbarItem signOutItem;
+        public string name;
+        List<Album> albumList = new List<Album>();
+        
         public HomePage()
         {
             InitializeComponent();
-            // Remove the back button on the nav bar
-            NavigationPage.SetHasNavigationBar(this, false);
 
+            // Remove the back button on the nav bar
+            //NavigationPage.SetHasNavigationBar(this, false); 
             NavigationPage tab1View = new NavigationPage(new SearchPage());
-            //tab1View.Title = "SEARCH";
             tab1View.IconImageSource = "searchwhite.png";
 
             FavoritesPage tab2View = new FavoritesPage();
-            //tab2View.Title = "FAVORITES";
             tab2View.IconImageSource = "starwhite.png";
-
+            // add tab page to homepage
             Children.Add(tab1View);
             Children.Add(tab2View);
-
-            this.signOutItem = new ToolbarItem
+            // assign values to signout toolbar item
+            signOutItem = new ToolbarItem
             {
                 IconImageSource = ImageSource.FromFile("signoutwhite.png"),
                 Order = ToolbarItemOrder.Primary,
                 Priority = 0
             };
-
-            this.ToolbarItems.Add(signOutItem);
-
+            // add signout item to toolbar
+            ToolbarItems.Add(signOutItem);
+            // event
             signOutItem.Clicked += SignOut_Clicked;
+            name = (string)Application.Current.Properties["Name"];
+            Debug.WriteLine(name);
+            if (Application.Current.Properties.ContainsKey($"{name}"))
+            {
+                albumList = JsonConvert.DeserializeObject<List<Album>>((string)Application.Current.Properties[$"{name}"]);
+            }
+            Application.Current.SavePropertiesAsync();
+            MessagingCenter.Subscribe < List<Album>>(this, "UserFavorites", (sender) =>
+            {
+                albumList = sender;
+            });
         }
-
+        // event method for signout button
         async void SignOut_Clicked(object sender, EventArgs e)
         {
             // display pop up when signout button is clicked. If answer is yes,
             if (await DisplayAlert("SIGNOUT", "Are you sure you would like to signout?", "YES", "CANCEL"))
             {
+                // store the username and their favorites in json format
+                var jsonValueToSave = JsonConvert.SerializeObject(albumList);
+                Application.Current.Properties["List"] = jsonValueToSave;
+                Application.Current.Properties["Name"] = null;
                 // store the false value to the signedIn local storage key and navigate to root page
                 Application.Current.Properties["SignedIn"] = bool.FalseString;
-
-                await Navigation.PopToRootAsync();
+                await Application.Current.SavePropertiesAsync();
+                await Navigation.PushAsync(new MainPage());
             }
         }
 
-        private  void SignOut()
-        {
-            
-        }
     }
 }

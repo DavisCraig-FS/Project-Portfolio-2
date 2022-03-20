@@ -10,12 +10,12 @@ namespace Alpha
     public partial class AlbumDetailPage : ContentPage
     {
         Album album = new Album();
-
+        List<Album> albumList = new List<Album>();
         public AlbumDetailPage()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            MessagingCenter.Subscribe<Album>(this, "Image", (sender) =>
+            MessagingCenter.Subscribe<Album>(this, "AlbumDetail", (sender) =>
             {
                 album = sender;
             });
@@ -27,14 +27,18 @@ namespace Alpha
         {
             if (await DisplayAlert("ADD ALBUM", "Are you sure you want to add this album to your favorites?", "YES", "CANCEL"))
             {
-                if (!File.Exists(App.FavoriteFilePath))
+                
+                MessagingCenter.Send(album, "AddAlbum");
+                /*if (!File.Exists(App.FavoriteFilePath))
                 {
                     // create the file 
                     using (StreamWriter sw = File.CreateText(App.FavoriteFilePath))
                     {
-                        // write the user info to the file
+                        
+                        // write the album info to the file
                         sw.WriteLine($"{album.Title}|{album.Image}|{album.Artist}");
                         Debug.WriteLine($"{album.Title}|{album.Image}|{album.Artist}");
+                        
                     }
                 }
                 // if the file does exist
@@ -43,20 +47,24 @@ namespace Alpha
                     // append the file
                     using (StreamWriter sw = File.AppendText(App.FavoriteFilePath))
                     {
-                        // write the user info to the file
+                        
+                        // write the album info to the file
                         sw.WriteLine($"{album.Title}|{album.Image}|{album.Artist}");
+                        Debug.WriteLine($"{album.Title}|{album.Image}|{album.Artist}");
+                        
                     }
-                }
+                }*/
             }
         }
-
+        // method for on appearing
         protected override void OnAppearing()
         {
             base.OnAppearing();
+            // variables to hold the binding context
             var image = BindingContext as Album;
             var artist = BindingContext as Album;
             var title = BindingContext as Album;
-
+            // assign binded values to diplay
             aristLabel.Text = artist.Artist;
             albumImage.Source = image.Image;
             albumLabel.Text = title.Title;

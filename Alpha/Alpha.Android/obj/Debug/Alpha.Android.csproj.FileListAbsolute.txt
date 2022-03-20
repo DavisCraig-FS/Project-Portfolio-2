@@ -629,7 +629,7 @@
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/search.png
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/signout.png
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/star.png
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/android/bin/classes 2.dex
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/searchwhite.png
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/starwhite.png
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/signoutwhite.png
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/android/bin/classes 3.dex

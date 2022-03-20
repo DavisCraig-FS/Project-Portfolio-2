@@ -1,20 +1,19 @@
-﻿<Properties StartupConfiguration="{F7CDDF23-8E83-4B21-A661-FD401C3ECAD1}|Default">
-  <MonoDevelop.Ide.ItemProperties.Alpha.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D6F8D810-6CA9-4891-88A4-5FE6462C8967" />
+﻿<Properties StartupConfiguration="{29DFFFD5-90F7-407F-8E14-DB8A8F2716BF}|Default">
+  <MonoDevelop.Ide.ItemProperties.Alpha.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.873F9078-0734-4670-8A30-641DA14A6AFF" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Alpha/FavoritesPage.xaml.cs">
     <Files>
-      <File FileName="Alpha/MainPage.xaml.cs" Line="12" Column="48" />
-      <File FileName="Alpha/FavoritesPage.xaml.cs" Line="19" Column="13" />
-      <File FileName="Alpha/SearchPage.xaml.cs" Line="21" Column="13" />
-      <File FileName="Alpha/AlbumDetailPage.xaml.cs" Line="17" Column="13" />
-      <File FileName="Alpha/HomePage.xaml.cs" Line="18" Column="13" />
-      <File FileName="Alpha/App.xaml.cs" Line="26" Column="37" />
-      <File FileName="Alpha/SignInPage.xaml.cs" Line="82" Column="44" />
+      <File FileName="Alpha/FavoritesPage.xaml.cs" Line="29" Column="33" />
+      <File FileName="Alpha/AlbumDetailPage.xaml.cs" />
+      <File FileName="Alpha/SignInPage.xaml.cs" />
+      <File FileName="Alpha/HomePage.xaml.cs" />
+      <File FileName="Alpha/App.xaml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Alpha" expanded="True">
             <Node name="Alpha" expanded="True">
+              <Node name="Models" expanded="True" />
               <Node name="AlbumDetailPage.xaml" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="FavoritesPage.xaml" expanded="True">
@@ -24,12 +23,6 @@
               <Node name="MainPage.xaml" expanded="True" />
               <Node name="SearchPage.xaml" expanded="True" />
               <Node name="SignInPage.xaml" expanded="True" />
-            </Node>
-            <Node name="Alpha.Android" expanded="True">
-              <Node name="Resources" expanded="True" />
-            </Node>
-            <Node name="Alpha.iOS" expanded="True">
-              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>

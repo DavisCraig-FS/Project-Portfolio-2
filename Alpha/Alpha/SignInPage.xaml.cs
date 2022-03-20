@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using Xamarin.Forms;
+using System.Diagnostics;
 
 namespace Alpha
 {
@@ -78,11 +79,12 @@ namespace Alpha
             {
                 // set signed in property to true
                 Application.Current.Properties["SignedIn"] = bool.TrueString;
-                
+                Application.Current.Properties["Name"] = usernameEntry.Text;
+                await Application.Current.SavePropertiesAsync();
+                //Debug.WriteLine(Application.Current.Properties["Name"]);
                 // navigate to the homepage
                 await Navigation.PushAsync(new HomePage());
-                // send the username to via messaging center
-                MessagingCenter.Send(usernameEntry.Text, "DisplayUser");
+                
             }
         }
         // method for clearing all fields
@@ -99,7 +101,7 @@ namespace Alpha
                 // Opening a streamreader to read all file contents
                 using (StreamReader sr = new StreamReader(App.UserFilePath))
                 {
-                    // variable to hold read line (stock symbol)
+                    // variable to hold read line 
                     string line;
                     // looping for every readline that exists
                     while ((line = sr.ReadLine()) != null)
