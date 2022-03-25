@@ -30,23 +30,30 @@ namespace Alpha.Models
 
         public async Task<List<Album>> GetAlbums()
         {
-            string apiString = await apiConnection.DownloadStringTaskAsync(apiEndPoint);
-            JObject jsonData = JObject.Parse(apiString);
-            JObject topAlbums = (JObject)jsonData["topalbums"];
-            JArray albumArray = (JArray)topAlbums["album"];
-
-            foreach (var a in albumArray)
+            try
             {
+                string apiString = await apiConnection.DownloadStringTaskAsync(apiEndPoint);
+                JObject jsonData = JObject.Parse(apiString);
+                JObject topAlbums = (JObject)jsonData["topalbums"];
+                JArray albumArray = (JArray)topAlbums["album"];
 
-                albumList.Add(new Album
+                foreach (var a in albumArray)
                 {
-                    Artist = a["artist"]["name"].ToString(),
-                    Title = a["name"].ToString(),
-                    Image = a["image"][3]["#text"].ToString()
 
-                });
+                    albumList.Add(new Album
+                    {
+                        Artist = a["artist"]["name"].ToString(),
+                        Title = a["name"].ToString(),
+                        Image = a["image"][3]["#text"].ToString()
+
+                    });
+                }
+                return albumList;
             }
-            return albumList;
+            catch(Exception ex)
+            {
+                return null;
+            }
         }
     }
 }

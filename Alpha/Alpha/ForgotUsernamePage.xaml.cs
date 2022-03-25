@@ -33,7 +33,7 @@ namespace Alpha
             // create a datatemplate for the text cell and set the binding
             DataTemplate dt = new DataTemplate(typeof(TextCell));
             dt.SetBinding(TextCell.TextProperty, new Binding("UserName"));
-            dt.SetValue(TextCell.TextColorProperty, Color.Black);
+            dt.SetValue(TextCell.TextColorProperty, Color.White);
             listView.ItemTemplate = dt;
             // event 
             closeButton.Clicked += CloseButton_Clicked;
@@ -48,6 +48,8 @@ namespace Alpha
         protected override void OnAppearing()
         {
             base.OnAppearing();
+            // assign image to background
+            BackgroundImageSource = "Gradient.png";
             // assign listview source to usernames list and display
             listView.ItemsSource = usernames.ToList();
         }

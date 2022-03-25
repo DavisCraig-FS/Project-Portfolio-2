@@ -134,6 +134,11 @@ namespace Alpha
 
             }
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            BackgroundImageSource = "Gradient.png";
+        }
         // Method for clearing the field values
         private void ClearFields()
         {

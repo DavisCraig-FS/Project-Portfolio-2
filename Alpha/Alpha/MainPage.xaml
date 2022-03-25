@@ -3,19 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Alpha.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="SIGN UP" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Entry x:Name="firstEntry" Placeholder="First Name" Keyboard="Default" />
-        <Entry x:Name="lastEntry" Placeholder="Last Name" Keyboard="Default"/>
-        <Entry x:Name="usernameEntry" Placeholder="Username" Keyboard="Default"/>
-        <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" />
-        <Entry x:Name="passwordEntry" Placeholder="Password" Keyboard="Default" IsPassword="True"/>
-        <Entry x:Name="retypePassEntry" Placeholder="Retype Password" Keyboard="Default" IsPassword="True"/>
-        <Button x:Name="signUpButton" Text="SIGN UP" FontSize="Large" HorizontalOptions="CenterAndExpand" BackgroundColor="Green" TextColor="White" />
-        <Label Text="Already signed Up?" FontSize="Medium" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
-        <Button x:Name="signInButton" Text="SIGN IN" FontSize="Large" HorizontalOptions="CenterAndExpand" BackgroundColor="Black" TextColor="White" />
+    <StackLayout Padding="24">
+        <StackLayout Margin="0,0,0,80">
+            <Label Text="Create an Account" HorizontalTextAlignment="Center" TextColor="White" FontFamily="AppFont" FontSize="40" />
+        </StackLayout>
+            
+        <Entry x:Name="firstEntry" Placeholder="First Name" Keyboard="Default" BackgroundColor="White" HeightRequest="60" TextColor="Blue" FontFamily="AppFont" />
+        <Entry x:Name="lastEntry" Placeholder="Last Name" Keyboard="Default" BackgroundColor="White" HeightRequest="60" TextColor="Blue" FontFamily="AppFont"/>
+        <Entry x:Name="usernameEntry" Placeholder="Username" Keyboard="Default" BackgroundColor="White" HeightRequest="60" TextColor="Blue" FontFamily="AppFont"/>
+        <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" BackgroundColor="White" HeightRequest="60" TextColor="Blue" FontFamily="AppFont"/>
+        <Entry x:Name="passwordEntry" Placeholder="Password" Keyboard="Default" IsPassword="True" BackgroundColor="White" HeightRequest="60" TextColor="Blue" FontFamily="AppFont"/>
+        <Entry x:Name="retypePassEntry" Placeholder="Retype Password" Keyboard="Default" IsPassword="True" BackgroundColor="White" HeightRequest="60" TextColor="Blue" FontFamily="AppFont"/>
+        
+        <StackLayout Margin="0,20,0,0">
+            <Button x:Name="signUpButton" Text="SIGN UP" FontSize="Large" HorizontalOptions="Fill" BackgroundColor="Blue" TextColor="White" FontFamily="AppFont" CornerRadius="9"  />
+            <Label Text=" Already signed Up? " FontSize="Medium" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White" FontFamily="AppFont"/>
+            <Button x:Name="signInButton" Text="SIGN IN" FontSize="Large" HorizontalOptions="Fill" BackgroundColor="White" TextColor="Blue" FontFamily="AppFont" CornerRadius="9" BorderColor="Blue"/>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>

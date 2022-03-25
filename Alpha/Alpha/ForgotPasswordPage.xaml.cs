@@ -24,6 +24,11 @@ namespace Alpha
             forgotPassButton.Clicked += ForgotPassButton_Clicked;
             closeButton.Clicked += CloseButton_Clicked;
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            BackgroundImageSource = "Gradient.png";
+        }
         // event method for close button
         private void CloseButton_Clicked(object sender, EventArgs e)
         {

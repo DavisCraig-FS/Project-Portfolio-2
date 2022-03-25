@@ -17,13 +17,16 @@ namespace Alpha
         public SearchPage()
         {
             InitializeComponent();
-            // Remove the back button on the nav bar
-            NavigationPage.SetHasNavigationBar(this, false);
+            // disable back button
+            NavigationPage.SetHasBackButton(this, false);
             searchButton.Clicked += SearchButton_Clicked;
             listView.ItemsSource = albumList;
             listView.ItemSelected += ListView_ItemSelected;
-
+            string userName = (string)Application.Current.Properties["Name"];
+            userLabel.Text = userName.ToUpper();
             DataTemplate dt = new DataTemplate(typeof(ImageCell));
+            dt.SetValue(TextCell.TextColorProperty, Color.White);
+            dt.SetValue(TextCell.DetailColorProperty, Color.White);
             dt.SetBinding(ImageCell.ImageSourceProperty, new Binding("Image"));
             dt.SetBinding(ImageCell.TextProperty, new Binding("Title"));
             dt.SetBinding(ImageCell.DetailProperty, new Binding("Artist"));
@@ -45,11 +48,24 @@ namespace Alpha
                 MessagingCenter.Send<Album>((Album)e.SelectedItem, "AlbumDetail");
             }
         }
-        // event method for search button
-        private void SearchButton_Clicked(object sender, EventArgs e)
+        protected override void OnAppearing()
         {
-            // call method for API call
-            ArtistAlbumSearch();
+            base.OnAppearing();
+            BackgroundImageSource = "Gradient.png";
+        }
+        // event method for search button
+        async void SearchButton_Clicked(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(entryLabel.Text))
+            {
+                await DisplayAlert("Fields Incomplete!", "Make sure the entry field is not empty before pressing search.", "OKAY");
+            }
+            else
+            {
+                // call method for API call
+                ArtistAlbumSearch();
+            }
+            
         }
         // method for API call 
         async void ArtistAlbumSearch()
@@ -57,8 +73,14 @@ namespace Alpha
             // instantiate datamanager and assign values to albumList
             DataManager dm = new DataManager(entryLabel.Text.ToLower());
             albumList = await dm.GetAlbums();
-            listView.ItemsSource = albumList.ToList();
-
+            if(albumList == null)
+            {
+                await DisplayAlert("Error!", "The search returned no results. Please make sure the artist is typed correctly.", "OKAY");
+            }
+            else
+            {
+                listView.ItemsSource = albumList.ToList();
+            }
         }
     }
         

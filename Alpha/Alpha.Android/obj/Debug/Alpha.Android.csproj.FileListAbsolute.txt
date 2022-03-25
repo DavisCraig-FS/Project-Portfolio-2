@@ -632,4 +632,9 @@
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/searchwhite.png
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/starwhite.png
 /Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/signoutwhite.png
-/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/android/bin/classes 3.dex
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/gradient.png
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/android/assets/Alpha 2.dll
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/android/assets/Alpha 2.pdb
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/res/drawable/aplogo.png
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/android/src/crc64d959ce6c1c2a1d2c/MyEntryRenderer.java
+/Users/craigdavis/Desktop/16.2-Portfolio2/Project-Portfolio-2/Alpha/Alpha.Android/obj/Debug/android/bin/classes 2.dex

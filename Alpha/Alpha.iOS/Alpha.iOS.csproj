@@ -68,6 +68,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controls\MyEntryRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -140,5 +141,10 @@
     <BundleResource Include="Resources\searchwhite.png" />
     <BundleResource Include="Resources\signoutwhite.png" />
     <BundleResource Include="Resources\starwhite.png" />
+    <BundleResource Include="Resources\Gradient.png" />
+    <BundleResource Include="Resources\APLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
   </ItemGroup>
 </Project>

@@ -20,6 +20,7 @@ namespace Alpha
             users = new Dictionary<string, User>();
             // call the read from file method
             ReadFromFile();
+            logoImage.Source = "APLogo.png";
             // events
             signInButton.Clicked += SignInButton_Clicked;
             signupButton.Clicked += SignupButton_Clicked;
@@ -81,7 +82,6 @@ namespace Alpha
                 Application.Current.Properties["SignedIn"] = bool.TrueString;
                 Application.Current.Properties["Name"] = usernameEntry.Text;
                 await Application.Current.SavePropertiesAsync();
-                //Debug.WriteLine(Application.Current.Properties["Name"]);
                 // navigate to the homepage
                 await Navigation.PushAsync(new HomePage());
                 
@@ -122,6 +122,12 @@ namespace Alpha
                     }
                 }
             }
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            BackgroundImageSource = "Gradient.png";
         }
     }
 }

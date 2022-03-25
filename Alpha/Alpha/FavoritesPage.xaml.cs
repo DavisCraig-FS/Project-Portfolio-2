@@ -10,129 +10,68 @@ using System.Collections.ObjectModel;
 using static Alpha.Models.Album;
 using System.Collections.Specialized;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Alpha
 {
     public partial class FavoritesPage : INotifyPropertyChanged
     {
-        
+        // variables to hold album data and username
         List<Album> albumList = new List<Album>();
-        Album album = new Album();
         public string name;
         public FavoritesPage()
         {
             InitializeComponent();
-            // Remove the back button on the nav bar
-            NavigationPage.SetHasNavigationBar(this, false);
-            //ReadFromFile();
-            LoadAlbumList();
-            
-            
-            MessagingCenter.Subscribe<Album>(this, "AddAlbum", (sender) =>
+            // disable back button
+            NavigationPage.SetHasBackButton(this, false);
+            // method for loading album list
+            name = (string)Application.Current.Properties["Name"];
+            userLabel.Text = $"{name.ToUpper()}'s Favorites";
+            // messaging center subscriptions
+            MessagingCenter.Subscribe<List<Album>>(this, "UserFavorites", (sender) =>
             {
-                albumList.Add(sender);
-                Debug.WriteLine(sender.Title);
+                albumList = sender;
             });
-            MessagingCenter.Send(albumList, "UserFavorites");
-            //listView.ItemsSource = albumList.ToList();
-            //UpdateListView(listView);
+            MessagingCenter.Subscribe<Album>(this, "AddAlbum", (sender1) =>
+            {
+                // add sender to list
+                albumList.Add(sender1);
+            });
+            //SerializeAlbums();
+            // event
             listView.ItemSelected += ListView_ItemSelected;
-
+            // data template for image cell
             DataTemplate dt = new DataTemplate(typeof(ImageCell));
+            dt.SetValue(TextCell.TextColorProperty, Color.White);
+            dt.SetValue(TextCell.DetailColorProperty, Color.White);
             dt.SetBinding(ImageCell.ImageSourceProperty, new Binding("Image"));
             dt.SetBinding(ImageCell.TextProperty, new Binding("Title"));
             dt.SetBinding(ImageCell.DetailProperty, new Binding("Artist"));
             listView.ItemTemplate = dt;
-
+            // messaging center sender
+            MessagingCenter.Send(albumList, "UpdatedFavorites");
         }
+        // method for on appearing
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            //ReadFromFile();
-            UpdateListView(listView);
-
+            //UpdateListView(listView);
+            BackgroundImageSource = "Gradient.png";
+            listView.ItemsSource = albumList.ToList();
         }
+
+        // event method for list view item selected
         async void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            // if answer is yes, display alert
             if (await DisplayAlert("REMOVE ALBUM", "Are you sure you want to remove this album from the favorites list?", "YES", "CANCEL"))
             {
+                // remove album from list
                 albumList.Remove((Album)e.SelectedItem);
                 // store the username and their favorites in json format
-                SerializeAlbums();
-                /*File.Delete(App.FavoriteFilePath);
-                if (!File.Exists(App.FavoriteFilePath))
-                {
-                    using (StreamWriter sw = File.CreateText(App.FavoriteFilePath))
-                    {
-                        foreach(Album a in albumList)
-                        {
-                            sw.WriteLine($"{album.Title}|{album.Image}|{album.Artist}");
-                        }
-                    }
-                }
-                else
-                {
-                    using (StreamWriter sw = File.AppendText(App.FavoriteFilePath))
-                    {
-                        foreach (Album a in albumList)
-                        {
-                            sw.WriteLine($"{album.Title}|{album.Image}|{album.Artist}");
-                        }
-                    }
-                }*/
+                //SerializeAlbums();
                 listView.ItemsSource = albumList.ToList();
             }
-        }
-        public void ReadFromFile()
-        {
-            if (File.Exists(App.FavoriteFilePath))
-            {
-                // Opening a streamreader to read all file contents
-                using (StreamReader sr = new StreamReader(App.FavoriteFilePath))
-                {
-                    // variable to hold read line 
-                    string line;
-                    // looping for every readline that exists
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        // create an array and add data
-                        string[] data = line.Split('|');
-                        // instantiate a new user object and add all info
-                        album = new Album
-                        {
-                            Title = data[0],
-                            Image = data[1],
-                            Artist = data[2]
-                        };
-                        if (!albumList.Contains(album))
-                        {
-                            albumList.Add(album);
-                        }
-                        
-                    }
-                }
-            }
-        }
-        void LoadAlbumList()
-        {
-            name = (string)Application.Current.Properties["Name"];
-            if (Application.Current.Properties.ContainsKey("List"))
-            {
-                albumList = JsonConvert.DeserializeObject<List<Album>>((string)Application.Current.Properties[$"{name}"]);
-            }
-            
-        }
-        async void SerializeAlbums()
-        {
-            var jsonValueToSave = JsonConvert.SerializeObject(albumList);
-            Application.Current.Properties["List"] = jsonValueToSave;
-            await Application.Current.SavePropertiesAsync();
-        }
-        void UpdateListView(ListView listView)
-        {
-            var itemsSource = albumList.ToList();
-            listView.ItemsSource = null;
-            listView.ItemsSource = itemsSource;
         }
     }
 }

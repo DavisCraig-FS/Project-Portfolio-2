@@ -1,25 +1,23 @@
 ﻿using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 using System.IO;
 
+[assembly: ExportFont("MontserratAlternatesRegular.ttf", Alias = "AppFont")]
 namespace Alpha
 {
     public partial class App : Application
     {
         // property FilePath for the app class
         public static string UserFilePath { get; private set; }
-        public static string FavoriteFilePath { get; private set; }
         public static bool SignedIn { get; set; }
         
         public App()
         {
             InitializeComponent();
-            // assign a path for the local text files 
-            UserFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)) + "Accounts.txt";
-            FavoriteFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)) + "FavoritesList.txt";
+            // assign a path for the local file
+            UserFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)) + "UserFiles.txt";
             // create a boolean variable to store the value if the user 
-            // is signed in or not using built in storage properties
+            // is signed in or not using built in local storage properties
             bool signedIn = Current.Properties.ContainsKey("SignedIn") ? Convert.ToBoolean(Current.Properties["SignedIn"]) : false;
             // if the user is not signed in
             if (!signedIn)

@@ -3,10 +3,10 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Alpha.AlbumDetailPage">
-    <StackLayout>
-        <Label x:Name="aristLabel" Text="" FontSize="Title" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" BackgroundColor="DeepSkyBlue" />
-        <Image x:Name="albumImage" Source="" HeightRequest="300" />
-        <Label x:Name="albumLabel" Text="" FontSize="Title" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" BackgroundColor="DeepSkyBlue" />
-        <Button x:Name="addButton" Text="ADD TO FAVORITES" BackgroundColor="DeepSkyBlue" FontSize="Medium" TextColor="Black" VerticalOptions="EndAndExpand" HorizontalOptions="Center" />
+    <StackLayout Padding="24,0,24,10">
+        <Label x:Name="aristLabel" Text="" FontSize="40" FontFamily="AppFont" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" TextColor="White" Margin="0,20,0,20"  />
+        <Image x:Name="albumImage" Source="" HeightRequest="400" />
+        <Label x:Name="albumLabel" Text="" FontSize="30" FontFamily="AppFont" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" TextColor="White"  Margin="0,20,0,20" />
+        <Button x:Name="addButton" Text="ADD TO FAVORITES" FontFamily="AppFont" BackgroundColor="Blue" FontSize="Medium" TextColor="White" VerticalOptions="EndAndExpand" HorizontalOptions="Fill" Margin="0,0,0,40" CornerRadius="9"/>
     </StackLayout>
 </ContentPage>

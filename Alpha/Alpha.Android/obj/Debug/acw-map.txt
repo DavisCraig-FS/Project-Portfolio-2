@@ -1,6 +1,9 @@
 Alpha.Droid.MainActivity, Alpha.Android;crc6420c87aa1c9900475.MainActivity
 Alpha.Droid.MainActivity;crc6420c87aa1c9900475.MainActivity
 alpha.droid.MainActivity;crc6420c87aa1c9900475.MainActivity
+Alpha.Droid.Controls.MyEntryRenderer, Alpha.Android;crc64d959ce6c1c2a1d2c.MyEntryRenderer
+Alpha.Droid.Controls.MyEntryRenderer;crc64d959ce6c1c2a1d2c.MyEntryRenderer
+alpha.droid.controls.MyEntryRenderer;crc64d959ce6c1c2a1d2c.MyEntryRenderer
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner

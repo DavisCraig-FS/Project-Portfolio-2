@@ -3,12 +3,10 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Alpha.SearchPage">
-   <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="SEARCH" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Entry x:Name="entryLabel" Placeholder="Enter Artist/Band Name" />
-        <Button x:Name="searchButton" Text="SEARCH" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" FontSize="Large" />
+   <StackLayout Padding="24,0,24,10">
+        <Label x:Name="userLabel" Text="" HorizontalTextAlignment="Center" TextColor="White" FontSize="40" FontFamily="AppFont" Margin="0,10"/>
+        <Entry x:Name="entryLabel" Placeholder="Enter Artist/Band Name" TextColor="White" PlaceholderColor="White" FontFamily="AppFont"/>
+        <Button x:Name="searchButton" Text="SEARCH" HorizontalOptions="Fill" VerticalOptions="Center" FontSize="Large" BackgroundColor="Blue" TextColor="White" FontFamily="AppFont" Margin="0,15,0,25" CornerRadius="9"/>
         <ListView x:Name="listView">
             <ListView.ItemTemplate>
                 <DataTemplate>
