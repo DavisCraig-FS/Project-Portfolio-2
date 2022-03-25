@@ -3,22 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AudioPhile.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+    <StackLayout Padding="24">
+        <StackLayout Margin="0,0,0,70">
+            <Label Text="Create an Account" HorizontalTextAlignment="Center" TextColor="White" FontFamily="AppFont" FontSize="40" />
+        </StackLayout>
+            
+        <Entry x:Name="firstEntry" Placeholder="First Name" Keyboard="Default" BackgroundColor="White" HeightRequest="50" TextColor="Blue" FontFamily="AppFont" />
+        <Entry x:Name="lastEntry" Placeholder="Last Name" Keyboard="Default" BackgroundColor="White" HeightRequest="50" TextColor="Blue" FontFamily="AppFont"/>
+        <Entry x:Name="usernameEntry" Placeholder="Username" Keyboard="Default" BackgroundColor="White" HeightRequest="50" TextColor="Blue" FontFamily="AppFont"/>
+        <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" BackgroundColor="White" HeightRequest="50" TextColor="Blue" FontFamily="AppFont"/>
+        <Entry x:Name="passwordEntry" Placeholder="Password" Keyboard="Default" IsPassword="True" BackgroundColor="White" HeightRequest="50" TextColor="Blue" FontFamily="AppFont"/>
+        <Entry x:Name="retypePassEntry" Placeholder="Retype Password" Keyboard="Default" IsPassword="True" BackgroundColor="White" HeightRequest="50" TextColor="Blue" FontFamily="AppFont"/>
+        
+        <StackLayout Margin="0,20,0,0">
+            <Button x:Name="signUpButton" Text="SIGN UP" FontSize="Large" HorizontalOptions="Fill" BackgroundColor="Blue" TextColor="White" FontFamily="AppFont" CornerRadius="9"  />
+            <Label Text=" Already signed Up? " HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White" FontFamily="AppFont"/>
+            <Button x:Name="signInButton" Text="SIGN IN" FontSize="Large" HorizontalOptions="Fill" BackgroundColor="White" TextColor="Blue" FontFamily="AppFont" CornerRadius="9" BorderColor="Blue"/>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>

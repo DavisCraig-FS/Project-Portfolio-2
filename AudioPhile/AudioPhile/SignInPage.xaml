@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AudioPhile.SignInPage">
+    <StackLayout Padding="24,0,24,10">
+        <StackLayout Margin="0,0,0,20">
+            <Label Text="Sign In" HorizontalTextAlignment="Center" TextColor="White" FontSize="40" FontFamily="AppFont"/>
+        </StackLayout>
+        <StackLayout Margin="0,40,0,100">
+            <Image x:Name="logoImage" Source="" />
+        </StackLayout>
+        <Entry x:Name="usernameEntry" Placeholder="Username" BackgroundColor="White" HeightRequest="50" TextColor="Blue" FontFamily="AppFont" />
+        <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True" BackgroundColor="White" HeightRequest="50" TextColor="Blue" FontFamily="AppFont"/>
+        <StackLayout Margin="0,60,0,20">
+            <Button x:Name="signInButton" Text="SIGN IN" FontSize="Large" BackgroundColor="Blue" TextColor="White" FontFamily="AppFont" HorizontalOptions="Fill" CornerRadius="9" />
+            <Label  Text=" Don't have an account? " HorizontalOptions="Center" VerticalOptions="Center" VerticalTextAlignment="Center" TextColor="White" FontFamily="AppFont" />
+            <Button x:Name="signupButton" Text="SIGN UP" FontSize="Large" BackgroundColor="White" TextColor="Blue" FontFamily="AppFont" VerticalOptions="Center" HorizontalOptions="Fill" CornerRadius="9"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal">
+            <Button x:Name="forgotUsernameButton" Text="FORGOT USERNAME" BackgroundColor="#B2B2B2" TextColor="Blue" FontFamily="AppFont" VerticalOptions="Center" HorizontalOptions="FillAndExpand" CornerRadius="9"/>
+            <Button x:Name="forgotPassButton" Text="FORGOT PASSWORD" BackgroundColor="#B2B2B2" TextColor="Blue" FontFamily="AppFont" VerticalOptions="Center" HorizontalOptions="FillAndExpand" CornerRadius="9"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

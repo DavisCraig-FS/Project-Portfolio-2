@@ -1,28 +1,31 @@
 ﻿<Properties StartupConfiguration="{186C7A05-FAEA-4417-8BB3-E4AB0BBB79E5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AudioPhile/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AudioPhile/MainPage.xaml">
     <Files>
       <File FileName="AudioPhile/App.xaml" Line="1" Column="1" />
-      <File FileName="AudioPhile/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="AudioPhile/App.xaml.cs" Line="6" Column="45" />
+      <File FileName="AudioPhile/SignInPage.xaml" Line="15" Column="33" />
+      <File FileName="AudioPhile/MainPage.xaml" Line="20" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AudioPhile" expanded="True">
             <Node name="AudioPhile" expanded="True">
-              <Node name="App.xaml" expanded="True">
-                <Node name="App.xaml.cs" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Fonts" expanded="True" />
               </Node>
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" selected="True" />
             </Node>
+            <Node name="AudioPhile.Android" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.AudioPhile.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.AudioPhile.Android PreferredExecutionTarget="Android.pixel_3a_xl_r_11_0_-_api_30" />
   <MonoDevelop.Ide.ItemProperties.AudioPhile.iOS FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AudioPhile FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
