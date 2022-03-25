@@ -16,7 +16,7 @@ namespace AudioPhile
         {
             InitializeComponent();
             // assign a path for the local file
-            UserFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)) + "UserFiles.txt";
+            UserFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)) + "SavedUsers.txt";
             // create a boolean variable to store the value if the user 
             // is signed in or not using built in local storage properties
             bool signedIn = Current.Properties.ContainsKey("SignedIn") ? Convert.ToBoolean(Current.Properties["SignedIn"]) : false;
